@@ -8,5 +8,5 @@
 
 ### shell 练习
 
-- [awk](http://gitlab.corp.qunar.com/chunxiao.ren/awk-sed/tree/master/awk)
-- [sed](http://gitlab.corp.qunar.com/chunxiao.ren/awk-sed/tree/master/sed)
+- [awk](https://github.com/renchunxiao/awk-sed/tree/master/awk)
+- [sed](https://github.com/renchunxiao/awk-sed/tree/master/sed)
