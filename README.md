@@ -4,7 +4,7 @@
 
 ### 推荐阅读
 
-- [Sed & Awk 笔记](http://gitlab.corp.qunar.com/chunxiao.ren/awk-sed/wikis/home)
+- [Sed & Awk 笔记](https://github.com/renchunxiao/awk-sed/wiki)
 
 ### shell 练习
 
