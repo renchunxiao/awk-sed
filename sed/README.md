@@ -1,4 +1,4 @@
-1. 把Jon's的名字改成Jonathan.
+1. 把Jon的名字改成Jonathan.
 2. 删除头三行
 3. 显示5-10行
 4. 删除包含Lane的行.
@@ -12,3 +12,16 @@
        - 删除以500结尾的工资
        - 显示文件内容,把姓和名颠倒
        - 在文件末尾添加THE END
+
+答案
+
+1. sed "s/Jon/Jonathan/" 1.txt
+2. sed "1,3d" 1.txt
+3. sed "5,10! d" 1.txt
+4. sed "/Lane/ d" 1.txt
+5. 
+6. sed "/^Fred/ s/^/***/" 1.txt
+7. sed "s/Jose/JOSE HAS RETIRED/g" 1.txt
+8. sed "/Popeye/ s/3\/19\/35/11\/14\/46/" 1.txt
+9. sed "/^$/ d" 1.txt
+10. 
