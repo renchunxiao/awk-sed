@@ -24,5 +24,5 @@
 7. sed "s/Jose/JOSE HAS RETIRED/g" 1.txt
 8. sed "/Popeye/ s/3\/19\/35/11\/14\/46/" 1.txt
 9. sed "/^$/ d" 1.txt
-10. sed -e "1 i PERSONNEL FILE" -e "$ a THE END" -e "/500$/d" -e "s/\([^\-]*\) \([^\-]*\):\(.*\)/\2 \1:\3/" 1.txt
+10. `sed -e "1 i PERSONNEL FILE" -e "$ a THE END" -e "/500$/d" -e "s/\([^\-]*\) \([^\-]*\):\(.*\)/\2 \1:\3/" 1.txt`
 
