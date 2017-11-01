@@ -3,7 +3,7 @@
 3. 显示5-10行
 4. 删除包含Lane的行.
 5. 显示所有生日在November-December之间的行
-6. 把三个星号(***)添加到也Fred开头的行
+6. 把三个星号(***)添加到以Fred开头的行
 7. 用JOSE HAS RETIRED取代包含Jose的行
 8. 把Popeye的生日改成11/14/46
 9. 删除所有空白行
