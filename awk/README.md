@@ -24,5 +24,5 @@
 7. awk -F '[:| ]' '$3 ~ /\[916\]/ {print $1,$2}' 1.txt
 8. awk -F ':' '/Mike/ {print "$" $3 "$" $4 "$" $5}' 1.txt
 9. awk -F '[:| ]' 'BEGIN { OFS=","}{print $1,$2}' 1.txt
-10. awk -F '[:| ]' '{if($2=="Savage") {print $1,$2,$3,$4} else if ($1=="Chet") {print $5,$6,$7} else if ($5=="250") {print $1,$2}}' 1.txt
+10. awk -F '[:| ]' '{if($2=="Savage") {print $1,$2,$3,$4} if ($1=="Chet") print $5,$6,$7 ; if ($5=="250") {print $1,$2}}' 1.txt
 
